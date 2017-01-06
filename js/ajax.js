@@ -66,6 +66,8 @@ function pobierzDane(event) {
 			
 			var jsonObj = JSON.parse(response);
 			
+			
+
 			var imie = document.createElement('p');
 			
 			imie.innerHTML = "Imie: " + jsonObj.imie;
